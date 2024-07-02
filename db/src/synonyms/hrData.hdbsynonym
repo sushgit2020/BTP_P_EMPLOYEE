@@ -1,0 +1,8 @@
+{
+    "BTP_HR_DEPARTMENT": {
+                "target": {
+                    "object" : "V_DEPARTMENT",
+                    "schema" : "SCHEMA_DB_HR"
+                }
+    }
+}

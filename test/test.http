@@ -1,0 +1,20 @@
+### load metadata
+GET http://localhost:4004/odata/v4/employee/$metadata
+
+### V2 load metadata
+GET http://localhost:4004/v2/odata/v4/employee/$metadata
+
+### GEt the employee
+GET http://localhost:4004/odata/v4/employee/Employees
+
+### Create emp
+POST http://localhost:4004/odata/v4/employee/Employees
+Content-Type: application/json
+
+{
+        "ID" : "E01",
+        "NAME": "SPIDERMAN",
+        "AGE" : 25,
+        "MAIL_ID" : "iron1@web.com",
+        "PHONE_NO" : "22222"
+}

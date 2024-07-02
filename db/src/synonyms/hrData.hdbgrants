@@ -1,0 +1,13 @@
+{
+    "hr-data":{
+            "object_owner":{
+                "container_roles": [ "BTP_HR::Write#" ]
+            },
+            "application_user":{
+                "container_roles": [ "BTP_HR::Write" ]
+             }
+
+    }
+
+
+}
